@@ -1,0 +1,12 @@
+﻿<div class="col-md-12" ng-controller="devicesController">
+    <h2>Registered Devices</h2>
+    <p>You can show there all devices connected do Haris Sensors Network</p>
+
+    <div class="col-md-12 row">
+        <div ng-repeat="cube in cubes">
+            <temp-cube ng-if="cube.CubeType == 'TempCube'" cube="cube"></temp-cube>
+            <display-cube ng-if="cube.CubeType == 'DisplayCube'" cube="cube"></display-cube>
+            <relay-cube ng-if="cube.CubeType == 'RelayCube'" cube="cube"></relay-cube>
+        </div>
+    </div>
+</div>
