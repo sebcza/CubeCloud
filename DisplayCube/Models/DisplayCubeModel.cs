@@ -1,5 +1,6 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 using Core;
 using DB.Models;
 
@@ -20,6 +21,11 @@ namespace DisplayCube.Models
             this.cubeRepository = cubeRepository;
             this.engineService = engineService;
         }
+
+	    public DisplayCubeModel()
+	    {
+		    Name = "Pokój";
+	    }
 
         public void SetDisplayText(int row, string content)
         {
@@ -42,8 +48,18 @@ namespace DisplayCube.Models
             messageItems = messag.Split(new char[] { '|' }, StringSplitOptions.RemoveEmptyEntries);
         }
 
+	    public override async Task RegisterAsync(CreateCube createCube)
+	    {
+			this.Content = new Dictionary<int, string>();
+			this.Id = new Guid();
+		    this.Address = createCube.Address;
+		    this.Name = createCube.Name;
+		    this.Type = this.GetType().ToString();
+		    return await cubeRepository.CreateCubeAsync(this);
+	    }
 
-        public enum Actions
+
+	    public enum Actions
         {
             SetDisplay = 1,
             SetBacklight = 2

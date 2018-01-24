@@ -1,5 +1,6 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace DB.Models
 {
@@ -17,5 +18,10 @@ namespace DB.Models
         {
             throw new NotImplementedException();
         }
-    }
+
+	    public virtual async Task RegisterAsync(CreateCube createCube)
+	    {
+		    throw new NotImplementedException();
+	    }
+	}
 }

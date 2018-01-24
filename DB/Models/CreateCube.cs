@@ -1,7 +1,6 @@
-﻿using System;
-namespace Core.ViewModels
+namespace DB.Models
 {
-    public class CreateCubeViewModel
+    public class CreateCube
     {
         public string Address { get; set; }
 

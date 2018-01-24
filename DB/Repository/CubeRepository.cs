@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Linq;
 using System.Threading.Tasks;
 using DB.Models;
@@ -37,9 +37,9 @@ namespace DB.Repository
             });
         }
 
-        public virtual async void CreateCubeAsync(TCube cube)
+        public virtual async Task CreateCubeAsync(TCube cube)
         {
-            await _cubes.InsertOneAsync(cube);
+             await _cubes.InsertOneAsync(cube);
         }
 
         public virtual async Task<TCube> GetCubeAsync(string address)
