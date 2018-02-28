@@ -11,6 +11,7 @@ using DB;
 using DB.Repository;
 using DB.Models;
 using DisplayCube;
+using Microsoft.Extensions.Logging.AzureAppServices.Internal;
 
 namespace Web
 {

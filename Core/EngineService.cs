@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using DB.Models;
 using DB.Repository;
+using Microsoft.Extensions.Logging;
 using MQTTnet;
 using MQTTnet.Client;
 
@@ -13,18 +14,21 @@ namespace Core
     public class EngineService : IEngineService
     {
         public readonly ICubeRepository<Cube> _cubeRepository;
+	    private readonly ILogger<EngineService> _logger;
 
-        private IMqttClient _mqttClient;
+	    private IMqttClient _mqttClient;
 
-        public EngineService(ICubeRepository<Cube> cubeRepository)
+        public EngineService(ICubeRepository<Cube> cubeRepository, ILogger<EngineService> logger)
         {
             _cubeRepository = cubeRepository;
-	        SetUp().Wait();
+	        _logger = logger;
+	        SetUp();
         }
 
-	    public async Task SetUp()
+	    public void SetUp()
 	    {
-		    await ConnectToBrokerAsync();
+		    _logger.LogInformation("", "Getting item {ID}", 1);
+		    ConnectToBrokerAsync();
 		    SubscribeCloudTopic();
 		    _mqttClient.ApplicationMessageReceived += ProccessMessage;
 	    }
@@ -46,7 +50,7 @@ namespace Core
 		    var mqttFacotry = new MqttFactory();
 		    _mqttClient = mqttFacotry.CreateMqttClient();
 		    var options = new MqttClientOptionsBuilder()
-			    .WithTcpServer("172.17.0.2", 1883)
+			    .WithTcpServer("127.0.0.1", 1883)
 			    .Build();
 		    await _mqttClient.ConnectAsync(options);
 	    }
@@ -72,11 +76,11 @@ namespace Core
 	        Console.WriteLine($"+ Retain = {e.ApplicationMessage.Retain}");
 	        Console.WriteLine();
 	        
-            var decodedMessage = DecodeMessage(Encoding.UTF8.GetString(e.ApplicationMessage.Payload));
+/*            var decodedMessage = DecodeMessage(Encoding.UTF8.GetString(e.ApplicationMessage.Payload));
             var address = decodedMessage[0];
 
             var engineCube = await CreateDeliveryCube(address);
-            engineCube.ProcessMessage(Encoding.UTF8.GetString(e.ApplicationMessage.Payload));
+            engineCube.ProcessMessage(Encoding.UTF8.GetString(e.ApplicationMessage.Payload));*/
 
         }
 

@@ -4,7 +4,7 @@ namespace Core
 {
 	public interface IEngineService
 	{
-		Task SetUp();
+		void SetUp();
 		Task SendMessage(string message, string destinationDeviceAddress);
 	}
 }
