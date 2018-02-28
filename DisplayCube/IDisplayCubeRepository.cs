@@ -6,5 +6,6 @@ namespace DisplayCube
 {
     public interface IDisplayCubeRepository : ICubeRepository<DisplayCubeModel>
     {
+	    
     }
 }

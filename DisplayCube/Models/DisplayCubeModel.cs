@@ -30,17 +30,17 @@ namespace DisplayCube.Models
         public void SetDisplayText(int row, string content)
         {
             int line = row + 1;
-            engineService.SendMessage(cubeEntity.Address + "|" + (int)DisplayCubeModel.Actions.SetDisplay + "|" + row + "|" + content);
+            engineService.SendMessage(cubeEntity.Address + "|" + (int)DisplayCubeModel.Actions.SetDisplay + "|" + row + "|" + content, cubeEntity.Address);
         }
 
         public void TurnOnBacklight()
         {
-            engineService.SendMessage(cubeEntity.Address + "|" + (int)DisplayCubeModel.Actions.SetBacklight + "|1");
+            engineService.SendMessage(cubeEntity.Address + "|" + (int)DisplayCubeModel.Actions.SetBacklight + "|1", cubeEntity.Address);
         }
 
         public void TurnOffBacklight()
         {
-            engineService.SendMessage(cubeEntity.Address + "|" + (int)DisplayCubeModel.Actions.SetBacklight + "|0");
+            engineService.SendMessage(cubeEntity.Address + "|" + (int)DisplayCubeModel.Actions.SetBacklight + "|0", cubeEntity.Address);
         }
 
         public override void ProcessMessage(string messag)
@@ -55,7 +55,7 @@ namespace DisplayCube.Models
 		    this.Address = createCube.Address;
 		    this.Name = createCube.Name;
 		    this.Type = this.GetType().ToString();
-		    return await cubeRepository.CreateCubeAsync(this);
+		    await cubeRepository.CreateCubeAsync(this);
 	    }
 
 

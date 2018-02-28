@@ -1,0 +1,618 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="d4332da8-6d3f-429c-b262-bed41786a835" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.CubeCloud/.idea/contentModel.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.CubeCloud/.idea/indexLayout.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.CubeCloud/.idea/modules.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.CubeCloud/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/.idea.CubeCloud/riderModule.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Core/IEngineService.cs" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Core/MessageHub.cs" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/Core.csproj" afterPath="$PROJECT_DIR$/Core/Core.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Core/EngineService.cs" afterPath="$PROJECT_DIR$/Core/EngineService.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/DB.csproj" afterPath="$PROJECT_DIR$/DB/DB.csproj" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DB/Repository/CubeRepository.cs" afterPath="$PROJECT_DIR$/DB/Repository/CubeRepository.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DisplayCube/IDisplayCubeRepository.cs" afterPath="$PROJECT_DIR$/DisplayCube/IDisplayCubeRepository.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DisplayCube/Models/DisplayCubeModel.cs" afterPath="$PROJECT_DIR$/DisplayCube/Models/DisplayCubeModel.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web/Controllers/CubeController.cs" afterPath="$PROJECT_DIR$/Web/Controllers/CubeController.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web/Startup.cs" afterPath="$PROJECT_DIR$/Web/Startup.cs" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Web/Web.csproj" afterPath="$PROJECT_DIR$/Web/Web.csproj" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="DisplayCubeModel.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DisplayCube/Models/DisplayCubeModel.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+              <folding>
+                <marker date="1519845408038" expanded="false" signature="6:106" ph="..." />
+                <marker date="1519845408038" expanded="true" signature="136:2084" ph="{...}" />
+                <marker date="1519845408038" expanded="true" signature="179:2082" ph="{...}" />
+                <marker date="1519845408038" expanded="true" signature="573:733" ph="{...}" />
+                <marker date="1519845408038" expanded="true" signature="765:801" ph="{...}" />
+                <marker date="1519845408038" expanded="true" signature="862:1070" ph="{...}" />
+                <marker date="1519845408038" expanded="true" signature="1109:1266" ph="{...}" />
+                <marker date="1519845408038" expanded="true" signature="1306:1463" ph="{...}" />
+                <marker date="1519845408038" expanded="true" signature="1523:1643" ph="{...}" />
+                <marker date="1519845408038" expanded="true" signature="1713:1972" ph="{...}" />
+                <marker date="1519845408038" expanded="true" signature="1999:2076" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CubeController.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Web/Controllers/CubeController.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="29" selection-end-column="9" />
+              <folding>
+                <marker date="1519846590050" expanded="false" signature="6:165" ph="..." />
+                <marker date="1519846590050" expanded="true" signature="192:946" ph="{...}" />
+                <marker date="1519846590050" expanded="true" signature="236:944" ph="{...}" />
+                <marker date="1519846590050" expanded="true" signature="344:387" ph="{...}" />
+                <marker date="1519846590050" expanded="true" signature="457:813" ph="{...}" />
+                <marker date="1519846590050" expanded="true" signature="862:941" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ICubeService.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Core/ICubeService.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+              <folding>
+                <marker date="1516736959929" expanded="true" signature="6:51" ph="..." />
+                <marker date="1516736959929" expanded="true" signature="67:161" ph="{...}" />
+                <marker date="1516736959929" expanded="true" signature="103:159" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EngineService.cs" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Core/EngineService.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="215">
+              <caret line="47" column="56" lean-forward="true" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="56" />
+              <folding>
+                <marker date="1519846120730" expanded="true" signature="6:190" ph="..." />
+                <marker date="1519846120730" expanded="true" signature="206:3372" ph="{...}" />
+                <marker date="1519846120730" expanded="true" signature="256:3370" ph="{...}" />
+                <marker date="1519846120730" expanded="true" signature="435:526" ph="{...}" />
+                <marker date="1519846120730" expanded="true" signature="558:702" ph="{...}" />
+                <marker date="1519846120730" expanded="true" signature="792:1062" ph="{...}" />
+                <marker date="1519846120730" expanded="true" signature="1115:1381" ph="{...}" />
+                <marker date="1519846120730" expanded="true" signature="1422:1707" ph="{...}" />
+                <marker date="1519846120730" expanded="true" signature="1476:1699" ph="{...}" />
+                <marker date="1519846120730" expanded="true" signature="1801:2566" ph="{...}" />
+                <marker date="1519846120730" expanded="true" signature="2623:2756" ph="{...}" />
+                <marker date="1519846120730" expanded="true" signature="2825:3364" ph="{...}" />
+                <marker date="1519846120730" expanded="true" signature="2952:3055" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IEngineService.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Core/IEngineService.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+              <folding>
+                <marker date="1519845705033" expanded="true" signature="45:173" ph="{...}" />
+                <marker date="1519845705033" expanded="true" signature="80:171" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Startup.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Web/Startup.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="285">
+              <caret line="31" column="60" lean-forward="false" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
+              <folding>
+                <marker date="1519846811946" expanded="false" signature="6:337" ph="..." />
+                <marker date="1519846811946" expanded="true" signature="352:1646" ph="{...}" />
+                <marker date="1519846811946" expanded="true" signature="379:1644" ph="{...}" />
+                <marker date="1519846811946" expanded="true" signature="438:501" ph="{...}" />
+                <marker date="1519846811946" expanded="true" signature="724:929" ph="{...}" />
+                <marker date="1519846811946" expanded="true" signature="1117:1638" ph="{...}" />
+                <marker date="1519846811946" expanded="true" signature="1164:1241" ph="{...}" />
+                <marker date="1519846811946" expanded="true" signature="1258:1342" ph="{...}" />
+                <marker date="1519846811946" expanded="true" signature="1445:1616" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CubeRepository.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/DB/Repository/CubeRepository.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="231">
+              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+              <folding>
+                <marker date="1519847251750" expanded="false" signature="6:204" ph="..." />
+                <marker date="1519847251750" expanded="true" signature="229:1930" ph="{...}" />
+                <marker date="1519847251750" expanded="true" signature="314:1928" ph="{...}" />
+                <marker date="1519847251750" expanded="true" signature="558:827" ph="{...}" />
+                <marker date="1519847251750" expanded="true" signature="865:1321" ph="{...}" />
+                <marker date="1519847251750" expanded="true" signature="1065:1311" ph="/* BsonClassMap.RegisterClassMap&lt;TCube&gt;(cm =&gt; ... */" />
+                <marker date="1519847251750" expanded="true" signature="1384:1452" ph="{...}" />
+                <marker date="1519847251750" expanded="true" signature="1523:1695" ph="{...}" />
+                <marker date="1519847251750" expanded="true" signature="1758:1922" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Program.cs" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Web/Program.cs">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding>
+                <marker date="1516642099246" expanded="false" signature="6:255" ph="..." />
+                <marker date="1516642099246" expanded="true" signature="270:591" ph="{...}" />
+                <marker date="1516642099246" expanded="true" signature="297:589" ph="{...}" />
+                <marker date="1516642099246" expanded="true" signature="350:408" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Core/EngineService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Program.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Startup.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DB/Repository/CubeRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Core/IEngineService.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DisplayCube/IDisplayCubeRepository.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Web/Controllers/CubeController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/DisplayCube/Models/DisplayCubeModel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Core/ICubeService.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/DisplayCube/IDisplayCubeRepository.cs" />
+        <option value="$PROJECT_DIR$/Core/MessageHub.cs" />
+        <option value="$PROJECT_DIR$/DisplayCube/Models/DisplayCubeModel.cs" />
+        <option value="$PROJECT_DIR$/Core/IEngineService.cs" />
+        <option value="$PROJECT_DIR$/Core/EngineService.cs" />
+        <option value="$PROJECT_DIR$/Web/Controllers/CubeController.cs" />
+        <option value="$PROJECT_DIR$/Web/Startup.cs" />
+        <option value="$PROJECT_DIR$/DB/Repository/CubeRepository.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1440" />
+    <option name="height" value="877" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="SolutionExplorer" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="SolutionExplorer">
+        <subPane>
+          <expand>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="CubeCloud (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="CubeCloud (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Core" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="CubeCloud (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="DisplayCube" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="CubeCloud (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="DisplayCube" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Models" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="CubeCloud (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Web" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="CubeCloud (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Web" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Dependencies" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+            <path>
+              <item name="" type="13324e5d:SolutionExplorerViewPane$ProjectViewPaneTreeStructure$createRoot$1" />
+              <item name="CubeCloud (4 projects)" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Web" type="977d5f41:SolutionExplorerNodeRider" />
+              <item name="Controllers" type="977d5f41:SolutionExplorerNodeRider" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-file-system" value="false" />
+        <option name="show-all-items" value="false" />
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected=".NET Project.Default">
+    <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
+      <option name="EXE_PATH" value="$PROJECT_DIR$/Web/bin/Debug/netcoreapp2.0/Web.dll" />
+      <option name="PROGRAM_PARAMETERS" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Web" />
+      <option name="PASS_PARENT_ENVS" value="1" />
+      <envs>
+        <env name="ASPNETCORE_ENVIRONMENT" value="Development" />
+        <env name="ASPNETCORE_URLS" value="http://localhost:5000" />
+      </envs>
+      <option name="USE_MONO" value="0" />
+      <option name="USE_EXTERNAL_CONSOLE" value="0" />
+      <option name="PROJECT_PATH" value="$PROJECT_DIR$/Web/Web.csproj" />
+      <option name="PROJECT_OUTPUT_TRACKING" value="1" />
+      <option name="PROJECT_KIND" value="DotNetCore" />
+      <option name="PROJECT_TFM" value=".NETCoreApp,Version=v2.0" />
+      <browser url="http://localhost:5000" />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d4332da8-6d3f-429c-b262-bed41786a835" name="Default" comment="" />
+      <created>1519842360842</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1519842360842</updated>
+      <workItem from="1519842364112" duration="429000" />
+      <workItem from="1519842803923" duration="648000" />
+      <workItem from="1519843585867" duration="3902000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="4979000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1440" height="877" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Errors In Solution" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4" sideWeight="0.10208333" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Unit Tests" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="NuGet" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Build" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32919255" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.4" sideWeight="0.8979167" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Core/EngineService.cs</url>
+          <line>28</line>
+          <properties documentPath="$PROJECT_DIR$/Core/EngineService.cs">
+            <startOffsets>
+              <startOffset value="637" />
+            </startOffsets>
+            <endOffsets>
+              <endOffset value="695" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="2" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/DisplayCube/Models/DisplayCubeModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="795">
+          <caret line="57" column="55" lean-forward="false" selection-start-line="57" selection-start-column="55" selection-end-line="57" selection-end-column="55" />
+          <folding>
+            <marker date="1519845408038" expanded="false" signature="6:106" ph="..." />
+            <marker date="1519845408038" expanded="true" signature="136:2084" ph="{...}" />
+            <marker date="1519845408038" expanded="true" signature="179:2082" ph="{...}" />
+            <marker date="1519845408038" expanded="true" signature="573:733" ph="{...}" />
+            <marker date="1519845408038" expanded="true" signature="765:801" ph="{...}" />
+            <marker date="1519845408038" expanded="true" signature="862:1070" ph="{...}" />
+            <marker date="1519845408038" expanded="true" signature="1109:1266" ph="{...}" />
+            <marker date="1519845408038" expanded="true" signature="1306:1463" ph="{...}" />
+            <marker date="1519845408038" expanded="true" signature="1523:1643" ph="{...}" />
+            <marker date="1519845408038" expanded="true" signature="1713:1972" ph="{...}" />
+            <marker date="1519845408038" expanded="true" signature="1999:2076" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/ICubeService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1516736959929" expanded="true" signature="6:51" ph="..." />
+            <marker date="1516736959929" expanded="true" signature="67:161" ph="{...}" />
+            <marker date="1516736959929" expanded="true" signature="103:159" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/MessageHub.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DisplayCube/Models/DisplayCubeModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="615">
+          <caret line="41" column="8" lean-forward="false" selection-start-line="41" selection-start-column="8" selection-end-line="41" selection-end-column="8" />
+          <folding>
+            <marker date="1519845408038" expanded="false" signature="6:106" ph="..." />
+            <marker date="1519845408038" expanded="true" signature="136:2084" ph="{...}" />
+            <marker date="1519845408038" expanded="true" signature="179:2082" ph="{...}" />
+            <marker date="1519845408038" expanded="true" signature="573:733" ph="{...}" />
+            <marker date="1519845408038" expanded="true" signature="765:801" ph="{...}" />
+            <marker date="1519845408038" expanded="true" signature="862:1070" ph="{...}" />
+            <marker date="1519845408038" expanded="true" signature="1109:1266" ph="{...}" />
+            <marker date="1519845408038" expanded="true" signature="1306:1463" ph="{...}" />
+            <marker date="1519845408038" expanded="true" signature="1523:1643" ph="{...}" />
+            <marker date="1519845408038" expanded="true" signature="1713:1972" ph="{...}" />
+            <marker date="1519845408038" expanded="true" signature="1999:2076" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DisplayCube/IDisplayCubeRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DisplayCube/IDisplayCubeRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/MessageHub.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="7" column="1" lean-forward="false" selection-start-line="7" selection-start-column="1" selection-end-line="20" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Program.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <marker date="1516642099246" expanded="false" signature="6:255" ph="..." />
+            <marker date="1516642099246" expanded="true" signature="270:591" ph="{...}" />
+            <marker date="1516642099246" expanded="true" signature="297:589" ph="{...}" />
+            <marker date="1516642099246" expanded="true" signature="350:408" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/ICubeService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" lean-forward="false" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+          <folding>
+            <marker date="1516736959929" expanded="true" signature="6:51" ph="..." />
+            <marker date="1516736959929" expanded="true" signature="67:161" ph="{...}" />
+            <marker date="1516736959929" expanded="true" signature="103:159" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DisplayCube/Models/DisplayCubeModel.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding>
+            <marker date="1519845408038" expanded="false" signature="6:106" ph="..." />
+            <marker date="1519845408038" expanded="true" signature="136:2084" ph="{...}" />
+            <marker date="1519845408038" expanded="true" signature="179:2082" ph="{...}" />
+            <marker date="1519845408038" expanded="true" signature="573:733" ph="{...}" />
+            <marker date="1519845408038" expanded="true" signature="765:801" ph="{...}" />
+            <marker date="1519845408038" expanded="true" signature="862:1070" ph="{...}" />
+            <marker date="1519845408038" expanded="true" signature="1109:1266" ph="{...}" />
+            <marker date="1519845408038" expanded="true" signature="1306:1463" ph="{...}" />
+            <marker date="1519845408038" expanded="true" signature="1523:1643" ph="{...}" />
+            <marker date="1519845408038" expanded="true" signature="1713:1972" ph="{...}" />
+            <marker date="1519845408038" expanded="true" signature="1999:2076" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///usr/local/share/dotnet/sdk/2.1.4/Roslyn/Microsoft.CSharp.Core.targets">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="83" column="4" lean-forward="false" selection-start-line="83" selection-start-column="4" selection-end-line="83" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Startup.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="31" column="60" lean-forward="false" selection-start-line="31" selection-start-column="60" selection-end-line="31" selection-end-column="60" />
+          <folding>
+            <marker date="1519846811946" expanded="false" signature="6:337" ph="..." />
+            <marker date="1519846811946" expanded="true" signature="352:1646" ph="{...}" />
+            <marker date="1519846811946" expanded="true" signature="379:1644" ph="{...}" />
+            <marker date="1519846811946" expanded="true" signature="438:501" ph="{...}" />
+            <marker date="1519846811946" expanded="true" signature="724:929" ph="{...}" />
+            <marker date="1519846811946" expanded="true" signature="1117:1638" ph="{...}" />
+            <marker date="1519846811946" expanded="true" signature="1164:1241" ph="{...}" />
+            <marker date="1519846811946" expanded="true" signature="1258:1342" ph="{...}" />
+            <marker date="1519846811946" expanded="true" signature="1445:1616" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/IEngineService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="1" lean-forward="false" selection-start-line="9" selection-start-column="1" selection-end-line="9" selection-end-column="1" />
+          <folding>
+            <marker date="1519845705033" expanded="true" signature="45:173" ph="{...}" />
+            <marker date="1519845705033" expanded="true" signature="80:171" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Web/Controllers/CubeController.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="29" selection-end-column="9" />
+          <folding>
+            <marker date="1519846590050" expanded="false" signature="6:165" ph="..." />
+            <marker date="1519846590050" expanded="true" signature="192:946" ph="{...}" />
+            <marker date="1519846590050" expanded="true" signature="236:944" ph="{...}" />
+            <marker date="1519846590050" expanded="true" signature="344:387" ph="{...}" />
+            <marker date="1519846590050" expanded="true" signature="457:813" ph="{...}" />
+            <marker date="1519846590050" expanded="true" signature="862:941" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DB/Repository/CubeRepository.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+          <folding>
+            <marker date="1519847251750" expanded="false" signature="6:204" ph="..." />
+            <marker date="1519847251750" expanded="true" signature="229:1930" ph="{...}" />
+            <marker date="1519847251750" expanded="true" signature="314:1928" ph="{...}" />
+            <marker date="1519847251750" expanded="true" signature="558:827" ph="{...}" />
+            <marker date="1519847251750" expanded="true" signature="865:1321" ph="{...}" />
+            <marker date="1519847251750" expanded="true" signature="1065:1311" ph="/* BsonClassMap.RegisterClassMap&lt;TCube&gt;(cm =&gt; ... */" />
+            <marker date="1519847251750" expanded="true" signature="1384:1452" ph="{...}" />
+            <marker date="1519847251750" expanded="true" signature="1523:1695" ph="{...}" />
+            <marker date="1519847251750" expanded="true" signature="1758:1922" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Core/EngineService.cs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="215">
+          <caret line="47" column="56" lean-forward="true" selection-start-line="47" selection-start-column="56" selection-end-line="47" selection-end-column="56" />
+          <folding>
+            <marker date="1519846120730" expanded="true" signature="6:190" ph="..." />
+            <marker date="1519846120730" expanded="true" signature="206:3372" ph="{...}" />
+            <marker date="1519846120730" expanded="true" signature="256:3370" ph="{...}" />
+            <marker date="1519846120730" expanded="true" signature="435:526" ph="{...}" />
+            <marker date="1519846120730" expanded="true" signature="558:702" ph="{...}" />
+            <marker date="1519846120730" expanded="true" signature="792:1062" ph="{...}" />
+            <marker date="1519846120730" expanded="true" signature="1115:1381" ph="{...}" />
+            <marker date="1519846120730" expanded="true" signature="1422:1707" ph="{...}" />
+            <marker date="1519846120730" expanded="true" signature="1476:1699" ph="{...}" />
+            <marker date="1519846120730" expanded="true" signature="1801:2566" ph="{...}" />
+            <marker date="1519846120730" expanded="true" signature="2623:2756" ph="{...}" />
+            <marker date="1519846120730" expanded="true" signature="2825:3364" ph="{...}" />
+            <marker date="1519846120730" expanded="true" signature="2952:3055" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

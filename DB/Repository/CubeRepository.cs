@@ -9,7 +9,7 @@ using MongoDB.Driver;
 
 namespace DB.Repository
 {
-    public abstract class CubeRepository<TCube> : ICubeRepository<TCube> where TCube : Cube
+    public class CubeRepository<TCube> : ICubeRepository<TCube> where TCube : Cube
     {
         protected MongoClient _provider;
         protected IMongoDatabase _db;
@@ -29,12 +29,12 @@ namespace DB.Repository
             var camelCaseConvention = new ConventionPack { new CamelCaseElementNameConvention() };
             ConventionRegistry.Register("CamelCase", camelCaseConvention, type => true);
 
-            BsonClassMap.RegisterClassMap<TCube>(cm =>
+/*            BsonClassMap.RegisterClassMap<TCube>(cm =>
             {
                 cm.AutoMap();
                 cm.MapIdMember(c => c.Id).SetSerializer(new GuidSerializer());
                 cm.SetIgnoreExtraElements(true);
-            });
+            });*/
         }
 
         public virtual async Task CreateCubeAsync(TCube cube)
